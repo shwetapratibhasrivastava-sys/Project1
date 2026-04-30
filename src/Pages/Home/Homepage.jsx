@@ -9,6 +9,7 @@ import React from "react";
 import HeroSection from "./components/HeroSection";
 import hero from '../../assets/hero.png'
 import AboutSection from "./components/AboutSection";
+import Product from "./components/Product";
 
 const Homepage = () => {
   return (
@@ -41,7 +42,10 @@ const Homepage = () => {
       <div  className="bg-white text-blue-950 pl-4 pr-4 border-5 border-amber-900">
         <AboutSection/>
       </div>
-      
+       <div  className="bg-white text-blue-950 border-5 border-amber-900">
+        <Product/>
+        </div>
+
       </>
   );
 };
