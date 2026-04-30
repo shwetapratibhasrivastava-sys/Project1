@@ -1,14 +1,15 @@
 import React from "react";
-import Input from "../../components/ui/Input";
-import Button from "../../components/ui/Button";
-import Navbar from "../../components/ui/Navbar";
-import Card from "../../components/ui/Card"
-import Badge from "../../components/ui/Badge";
+// import Input from "../../components/ui/Input";
+// import Button from "../../components/ui/Button";
+// import Navbar from "../../components/ui/Navbar";
+// import Card from "../../components/ui/Card"
+// import Badge from "../../components/ui/Badge";
+import { SimpleHeader } from "../../components/ui/SimpleHeader";
 
 const Homepage = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
 
       <Badge text="New" color="green" />
 
@@ -22,7 +23,8 @@ const Homepage = () => {
       <Button content="Submit" />
 
       <br></br>
-      <Card image="product.jpg" title="Nike Shoes" price="1099" />
+      <Card image="product.jpg" title="Nike Shoes" price="1099" /> */}
+      <SimpleHeader />
     </>
   );
 };
