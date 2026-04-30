@@ -18,7 +18,7 @@ export function SimpleHeader() {
 			// Logo section
 			React.createElement('div', { className: "flex items-center gap-2" },
 				React.createElement(Grid2X2, { className: "size-6" }),
-				React.createElement('p', { className: "font-mono text-lg font-bold" }, "Asme")
+				React.createElement('p', { className: "font-mono text-lg font-bold" }, "Portfolio")
 			),
 			// Desktop navigation
 			React.createElement('div', { className: "hidden items-center gap-2 lg:flex" },

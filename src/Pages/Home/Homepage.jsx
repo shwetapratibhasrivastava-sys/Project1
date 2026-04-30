@@ -4,10 +4,15 @@ import React from "react";
 // import Navbar from "../../components/ui/Navbar";
 // import Card from "../../components/ui/Card"
 // import Badge from "../../components/ui/Badge";
-import { SimpleHeader } from "../../components/ui/SimpleHeader";
+// import { SimpleHeader } from "../../components/ui/SimpleHeader";
+// import {Hero} from '../../components/ui/AnimatedHero';
+import HeroSection from "./components/HeroSection";
+import hero from '../../assets/hero.png'
+import AboutSection from "./components/AboutSection";
 
 const Homepage = () => {
   return (
+  
     <>
       {/* <Navbar />
 
@@ -24,8 +29,20 @@ const Homepage = () => {
 
       <br></br>
       <Card image="product.jpg" title="Nike Shoes" price="1099" /> */}
-      <SimpleHeader />
-    </>
+
+      <div className="flex">
+      <div className="h-screen">
+      <HeroSection/>
+      </div>
+      <div className="image">
+        <img src={hero} alt="image not found" />
+      </div>
+      </div>
+      <div  className="bg-white text-blue-950 pl-4 pr-4 border-5 border-amber-900">
+        <AboutSection/>
+      </div>
+      
+      </>
   );
 };
 
