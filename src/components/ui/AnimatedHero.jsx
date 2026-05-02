@@ -59,11 +59,11 @@ function Hero() {
           ),
           // CTA buttons
           React.createElement("div", { className: "flex flex-row gap-3" },
-            React.createElement(Button, { size: "lg", className: "gap-4", variant: "outline" },
+            React.createElement(Button, { size: "lg", className: "gap-4 bg-white text-blue-950 hover:bg-blue-950 hover:text-white", variant: "outline" },
               "Jump on a call ",
               React.createElement(PhoneCall, { className: "w-4 h-4" })
             ),
-            React.createElement(Button, { size: "lg", className: "gap-4" },
+            React.createElement(Button, { size: "lg", className: "gap-4 bg-white text-blue-950 hover:bg-blue-950 hover:text-white", variant: "outline" },
               "Sign up here ",
               React.createElement(MoveRight, { className: "w-4 h-4" })
             )
