@@ -28,7 +28,7 @@ function Hero() {
         React.createElement("div", { className: "flex gap-8 py-20 lg:py-20 items-center justify-center flex-col" },
           // Button section
           React.createElement("div", null,
-            React.createElement(Button, { variant: "secondary", size: "sm", className: "gap-4" },
+            React.createElement(Button, { variant: "secondary", size: "sm", className: "gap-4 bg-black text-white" },
               "Read our launch article ",
               React.createElement(MoveRight, { className: "w-4 h-4" })
             )
